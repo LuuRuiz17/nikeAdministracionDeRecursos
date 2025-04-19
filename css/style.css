@@ -48,10 +48,14 @@ main {
 }
 
 .formulario {
+  font-size: 1.2rem;
+  font-family: "Quicksand";
   background: var(--azul);
 }
-.bordesformulario:hover {
-  border: solid;
+
+::placeholder {
+  color: black !important;
+  opacity: 1;
 }
 
 /* PAGINA DETALLE DE CATEGORIAS */
