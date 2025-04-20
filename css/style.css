@@ -37,12 +37,14 @@ body {
 main {
   flex-grow: 1;
 }
+
 /* ---------------------- */
 
 /* Definicion Tipografía */
 .fontFamilyMarca {
   font-family: "Tektur";
 }
+
 .fontFamilyTextos {
   font-family: "Quicksand";
 }
@@ -146,12 +148,12 @@ footer {
   font-weight: 600;
 }
 
-.enlacesNav{
+.enlacesNav {
   font-size: 1rem;
 }
 
-.active{
-  color: var(--celesteClaro)!important;
+.active {
+  color: var(--celesteClaro) !important;
   font-weight: 800;
 }
 
@@ -208,7 +210,8 @@ footer {
 }
 
 .carousel-item video {
-  object-position: center bottom; /* Muestra más la parte inferior */
+  object-position: center bottom;
+  /* Muestra más la parte inferior */
 }
 
 .pantallaNegra {
@@ -293,15 +296,19 @@ footer {
   0% {
     transform: translateY(0) rotate(0deg);
   }
+
   25% {
     transform: translateY(-10px) rotate(10deg);
   }
+
   50% {
     transform: translateY(0) rotate(0deg);
   }
+
   75% {
     transform: translateY(-10px) rotate(-10deg);
   }
+
   100% {
     transform: translateY(0) rotate(0deg);
   }
@@ -357,12 +364,14 @@ footer {
   margin-bottom: 15px;
   color: var(--azul);
 }
+
 .imgComentarios {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
 }
+
 .linkComentarios a {
   font-size: 14px;
   margin-right: 10px;
@@ -370,13 +379,14 @@ footer {
   color: #007bff;
   text-decoration: none;
 }
+
 .linkComentarios a:hover {
   text-decoration: underline;
 }
 
 /* Estilos de la Página 'Acerca de Nosotros' */
 
-.imgNosotros{
+.imgNosotros {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
@@ -397,37 +407,47 @@ footer {
   .footersepardor {
     border-right: white solid 1px;
   }
+
   .shoe-container {
     max-width: 400px;
     height: 90px;
   }
+
   .shoe {
     width: 100px;
   }
+
   /* banner principal */
   .containerPrincipal {
     height: 400px;
   }
+
   .segundoBannerTitulo {
     font-size: 1.5rem;
   }
+
   .bannerTitulo {
     font-size: 2.5rem;
   }
+
   .bannerTexto {
     font-size: 1rem;
   }
+
   .sombra {
     max-width: 60%;
   }
+
   /* detalleCategoria hombre y niños */
   .contenedorVideoDetalleCategoria {
     height: 350px;
   }
+
   .imgCardDetalleCategoria {
     height: 200px;
   }
-  .enlacesNav{
+
+  .enlacesNav {
     font-size: 1.2rem;
   }
 }
@@ -435,48 +455,60 @@ footer {
 /* Media queries para computadoras */
 
 @media all and (min-width: 993px) {
-  .enlacesNav{
+  .enlacesNav {
     font-size: 1.2rem;
   }
+
   .footersepardor {
     border-right: white solid 1px;
   }
+
   .shoe-container {
     max-width: 500px;
     height: 120px;
   }
+
   .shoe {
     width: 120px;
   }
+
   .imgCategoriaHombre {
     height: 400px;
   }
+
   /* banner principal */
   .containerPrincipal {
     height: 600px;
   }
+
   .containerGrande {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .bannerTitulo {
     font-size: 3.5rem;
   }
+
   .bannerTexto {
     font-size: 1.5rem;
   }
+
   .sombra {
     max-width: 50%;
   }
+
   /* navbar */
   .marcadepagina {
     font-size: 35px;
   }
+
   /* detalleCategoria hombre y niños */
   .contenedorVideoDetalleCategoria {
     height: 400px;
   }
+
   /* error404 */
   .error404-img {
     height: 600px;
